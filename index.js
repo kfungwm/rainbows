@@ -1,7 +1,17 @@
 var colors = require('colors');
 
-console.log('OMG rainbows' .rainbow);
-console.log('OMG rainbows' .red);
-console.log('OMG rainbows' .yellow);
-console.log('OMG rainbows' .blue);
-console.log('OMG rainbows' .green);
+var myString = 'Hello World';
+
+function runInterval() {
+
+  console.log(myString);
+  console.log(myString.rainbow);
+  console.log(myString.red);
+  console.log(myString.yellow);
+  console.log(myString.blue);
+  console.log(myString.green);
+  console.log(myString.cyan);
+  console.log(myString.magenta);
+}
+
+setInterval(runInterval, 5000);

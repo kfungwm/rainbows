@@ -14,4 +14,4 @@ function makeRainbows() {
   console.log(myString.magenta);
 }
 
-makeRainbows(runInterval, 10000);
+setInterval(makeRainbows, 9000);

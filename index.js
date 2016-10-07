@@ -2,7 +2,7 @@ var colors = require('colors');
 
 var myString = 'Hello World';
 
-function runInterval() {
+function makeRainbows() {
 
   console.log(myString);
   console.log(myString.rainbow);
@@ -14,4 +14,4 @@ function runInterval() {
   console.log(myString.magenta);
 }
 
-setInterval(runInterval, 5000);
+makeRainbows(runInterval, 10000);
